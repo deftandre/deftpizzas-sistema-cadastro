@@ -4,7 +4,7 @@
 
 Web portal to manage the pizza ordering website https://deftpizzasdelivery.netlify.app/
 
-Available in https://deftpizzasdelivery-sistema-cadastro.netlify.app/
+Available in https://deftpizzascadastros.netlify.app/login
 
 Note: Only admin user is declared in Cloud Firestore rules to write in this portal.
 
@@ -55,4 +55,4 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ## License
 
-[MIT](https://github.com/deftandre/licenses/blob/master/MIT-LICENSE) &copy; André Almeida
+&copy; André Almeida
