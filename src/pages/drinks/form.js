@@ -84,7 +84,7 @@ const FormRegisterDrink = () => {
 
             <Form onSubmit={handleSubmit}>
                 <TextField
-                    label="Nome do acompanhamento"
+                    label="Nome da bebida"
                     name="name"
                     inputRef={nameField}
                     value={drinkEditable.name}
@@ -92,7 +92,7 @@ const FormRegisterDrink = () => {
                 />
 
                 <TextField
-                    label="Link para imagem desse acompanhamento"
+                    label="Link para imagem dessa bebida"
                     name="image"
                     value={drinkEditable.image}
                     onChange={handleChange}
