@@ -49,9 +49,9 @@ const Analytics = () => {
         setChartData([
             { number: deliveredNumber, argument: "Entregas feitas" },
             { number: recusedNumber, argument: "Pedidos recusados" },
-            { number: pizzaDelivered, argument: "Pizzas" },
-            { number: followsDelivered, argument: "Acompanhamentos" },
-            { number: drinksDelivered, argument: "Bebidas" },
+            { number: pizzaDelivered, argument: "Pizzas feitas" },
+            { number: followsDelivered, argument: "Acompanhamentos vendidos" },
+            { number: drinksDelivered, argument: "Bebidas vendidas" },
         ]);
     }, [
         deliveredNumber,
